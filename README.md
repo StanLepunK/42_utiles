@@ -2,7 +2,7 @@
 Utile pour les corrections
 
 GNL
-
+```
 #include <stdio.h>
 #include "get_next_line.h"
 int main (int num, char**arg)
@@ -19,3 +19,4 @@ int main (int num, char**arg)
   free(line);
   return 0;
 }
+```
