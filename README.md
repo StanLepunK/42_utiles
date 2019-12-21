@@ -1,6 +1,8 @@
 # 42_utiles
 Utile pour les corrections
 
+
+`./a.out /dev/random`
 GNL
 ```
 #include <stdio.h>
