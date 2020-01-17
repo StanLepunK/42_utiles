@@ -30,6 +30,12 @@ int	main(){
 
 	// ft_printf(“%s\n”, NULL);
 	// printf(“%s\n”, NULL);
+
+	ft_printf("%x %X %#x\n",26, 26, 26);
+	printf("%x %X %#x\n",26, 26, 26);
+
+	ft_printf("%d %hd %hhd %hhhhd\n", 265464848, 265464848, 265464848, 56956);
+	printf("%d %hd %hhd %hhhhd\n", 265464848, 265464848, 265464848, 56956);
 	
 	ft_printf(“%u\n”, -3);
 	printf(“%u\n”, -3);
