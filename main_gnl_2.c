@@ -6,8 +6,6 @@
 #include <sys/types.h>
 #include <sys/uio.h>
 #include <unistd.h>
-# include "libft.h"
-
 
 int main() {
 	int fd = open("voyage.txt",O_RDONLY);
