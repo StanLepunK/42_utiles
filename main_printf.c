@@ -48,6 +48,20 @@ int	main(){
 	
 	// ft_printf("%u\n", -3);
 	// printf("%u\n", -3);
-  // while (1);
+  
+  /**
+	ft_printf("%.*s\n", -2, "hello");
+	printf("%.*s\n", -2, "hello");
+	ft_printf("%.0s\n", "hello");
+	printf("%.0s\n", "hello");
+	ft_printf("%.s\n", "hello");
+	printf("%.s\n", "hello");
+	*/
+
+	// ft_printf("%00..%ddu*s\n", -2, "hello");
+	// printf("%00..%ddu*s\n", -2, "hello");
+
+	// ft_printf("%10%");
+	// printf("%10%");
   return 0;
 }
