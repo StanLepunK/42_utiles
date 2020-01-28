@@ -58,6 +58,10 @@ int	main(){
 	printf("%.s\n", "hello");
 	*/
 
+	char *truc = “machin”;
+	ft_printf(“%p\n”, truc);
+	printf(“%p\n”, truc);
+
 	// ft_printf("%00..%ddu*s\n", -2, "hello");
 	// printf("%00..%ddu*s\n", -2, "hello");
 
