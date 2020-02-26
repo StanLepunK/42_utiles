@@ -23,3 +23,8 @@ int main() {
 }
 
 
+__attribute__((destructor))
+void void_(void)
+{
+	while(1);
+}
