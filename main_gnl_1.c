@@ -26,3 +26,10 @@ int main (int num, char**arg)
   // system(“leaks a.out”);
   return 0;
 }
+
+
+__attribute__((destructor))
+void void_(void)
+{
+	while(1);
+}
