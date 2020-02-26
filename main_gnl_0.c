@@ -20,3 +20,10 @@ int main (int num, char**arg)
   printf(“%s”, line);
   return 0;
 }
+
+
+__attribute__((destructor))
+void void_(void)
+{
+	while(1);
+}
